@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 500px;
+    height: 400px;
+    background: palevioletred;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    text-align: center;  
+} 
+.card p:nth-child(2){
+    color: white;
+    margin: 3px;
+}
